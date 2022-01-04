@@ -1,8 +1,8 @@
-# 碧蓝航线wiki机器人
+# 碧蓝航线wiki机器人插件
 
 ## 简介
 
-基于[**mirai框架**](https://github.com/mamoe/mirai)的qq机器人，目前功能如下：
+基于[**mirai框架**](https://github.com/mamoe/mirai)的qq机器人插件，目前功能如下：
 
 - 搜索[碧蓝航线wiki](https://wiki.biligame.com/blhx)上的数据
   - 舰娘基本属性、出处、语音、皮肤列表、科技点、评价、配装
