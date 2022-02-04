@@ -37,7 +37,7 @@
 
 - 下载本项目最新的[jar包](https://github.com/DK09/blhx-wiki-mirai-plugin/releases)，放入Mirai-Console根目录下的plugin文件夹中
 
-- 下载[数据文件](https://www.aliyundrive.com/s/1GcQRPKo9dj)放入Mirai-Console根目录下的data文件夹中
+- 下载[数据文件](https://www.aliyundrive.com/s/4fpybGWvZPj)放入Mirai-Console根目录下的data文件夹中
 
   ![](doc/data_path.png)
 
