@@ -7,7 +7,9 @@
 - 搜索[碧蓝航线wiki](https://wiki.biligame.com/blhx)上的数据
   - 舰娘基本属性、出处、语音、皮肤列表、科技点、评价、配装
   - 装备基本属性、出处
+  - [井号大佬](https://space.bilibili.com/4305299)做的一些榜单
 - 模拟大建
+- 猜老婆小游戏
 
 ## 基本功能展示
 
@@ -65,8 +67,11 @@
 | wiki 大建 (轻池)   | 模拟轻池大建                                     | wiki 大建     |
 | wiki 大建列表     | 查询可以模拟大建的池子                           | wiki 大建列表  |
 | wiki 大建 [池子]   | 模拟对应池子大建                                 | wiki 大建 胡滕  |
-|                |                                                  |             |
-| 猜老婆/猜舰娘   | 猜舰娘小游戏                                     | 猜老婆      |
+|  |  |  |
+| wiki 榜单 | 查询目前可查询的各种榜单 | wiki 榜单 |
+| wiki [榜单] | 查询对应榜单 | wiki 装备一图榜 |
+|  |  |  |
+| 猜老婆 | 猜舰娘小游戏 | 猜老婆 |
 
 ## 参数设置
 
@@ -76,18 +81,15 @@ $\color{red}{在修改配置文件时应确保机器人（插件）不在运行�
 
 - **指令设置**
 
-​		位于`config/blhx-wiki/CommandConfig.yml`,对应Bot指令中的各指令名，可自行修改
+    位于`config/blhx-wiki/CommandConfig.yml`,对应Bot指令中的各指令名，可自行修改
 
 - **别名设置**
 
-  位于`config/blhx-wiki/CommandConfig.yml`，格式如下，“别名：正式名”
-
+    位于`config/blhx-wiki/CommandConfig.yml`，为方便更新， **用户仅能在ALIAS_USER_MAP下添加别名，其他词条下修改插件不会记录** ，格式如下，“别名：正式名”
   ```yaml
-  # 驱逐别名，指令自动转小写，别名中的英文请使用小写字母
-  ALIAS_DD_MAP: 
-    小加加: 萨拉托加
-    彩布里: 特装型布里MKIII
-    金布里: 试作型布里MKII
+  ALIAS_USER_MAP: 
+    36d: 萨拉托加
+    狗群主老婆: 天后
   ```
 
   正式名可以在wiki上查看，为网页网址最后的部分，如下图所示
