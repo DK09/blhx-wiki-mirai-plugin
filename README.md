@@ -143,4 +143,8 @@ $\color{red}{在修改配置文件时应确保机器人（插件）不在运行�
 
   将`data/blhx-wiki/config/active_pool.json`文件改为GBK格式即可
 
+- **PC端语音不能播放**
+
+  安装[Silk Converter](https://github.com/project-mirai/mirai-silk-converter)插件
+
 ~~如果觉得还不错就点个star吧~~
