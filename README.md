@@ -42,6 +42,10 @@
 - 下载[数据文件](https://gitee.com/arisaka-iris/blhx-wiki)放入Mirai-Console根目录下的data文件夹中
 
   ![](doc/data_path.png)
+  
+- 下载[皮肤数据](https://pan.baidu.com/s/1m0PLKNhN9o6eMlsuBDXY6g?pwd=wk20)，将图片解压放入`data/org.iris.wiki/image/skin`，不需要查询皮肤大图可以不进行这一步
+
+  ![](https://gitee.com/arisaka-iris/blhx-wiki/raw/master/doc/image-20220301112103855.png)
 
 - 启动Mirai-Console，在Mirai-Console里登录
 
@@ -56,6 +60,7 @@
 | wiki [舰娘]      | 查询舰娘基本属性                                 | wiki 拉菲     |
 | wiki [舰娘] 出处   | 查询舰娘所有的出处                               | wiki 拉菲 出处  |
 | wiki [舰娘] 皮肤   | 查询舰娘所有的皮肤                               | wiki 拉菲 皮肤  |
+| wiki [舰娘] 皮肤原图 | 查询舰娘所有的皮肤原图（需要额外下载皮肤数据）    | wiki 拉菲 皮肤原图 |
 | wiki [舰娘] [语音] | 查询舰娘对应类型的语音，如果有多条则随机发送一条 | wiki 拉菲 誓约  |
 | wiki [舰娘] 科技点  | 查询舰娘所提供的舰队科技                         | wiki 拉菲 科技点 |
 | wiki [舰娘] 配装   | 查询舰娘的配装推荐                               | wiki 拉菲 配装  |
