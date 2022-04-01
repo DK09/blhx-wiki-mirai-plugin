@@ -43,7 +43,7 @@
 
   ![](doc/data_path.png)
   
-- 下载[皮肤数据](https://pan.baidu.com/s/1m0PLKNhN9o6eMlsuBDXY6g?pwd=wk20)，将图片解压放入`data/org.iris.wiki/image/skin`，不需要查询皮肤大图可以不进行这一步
+- 下载[皮肤数据](https://pan.baidu.com/s/1yX70ob1A6RXncDbei7-ldA?pwd=txa2)，将图片解压放入`data/org.iris.wiki/image/skin`，不需要查询皮肤大图可以不进行这一步
 
   ![](https://gitee.com/arisaka-iris/blhx-wiki/raw/master/doc/image-20220301112103855.png)
 
