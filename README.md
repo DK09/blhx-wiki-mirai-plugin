@@ -94,10 +94,14 @@
 
 #### wiki控制指令
 
+/wikiconfig 可以简写为 /wkcf
+
 | 指令                                | 描述                                | 示例                           |
 | ----------------------------------- | ----------------------------------- | ------------------------------ |
 | /wikiconfig clear                   | 清除生成的图片缓存                  | /wikiconfig clear              |
 | /wikiconfig 舰船装备详情 true/false | 开启/关闭舰娘wiki界面的装备详情板块 | /wikiconfig 舰船装备详情 false |
+| /wikiconfig 猜老婆 true/false       | 开启/关闭本群的猜老婆功能          | /wikiconfig 猜老婆 false     |
+| /wikiconfig 大建 true/false | 开启/关闭本群的大建功能 | /wikiconfig 大建 false |
 
 #### 自动回复设置指令
 
