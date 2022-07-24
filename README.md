@@ -34,12 +34,13 @@
 - ~~萌新的第一个kotlin、mirai项目，代码写的挺屎的~~
 
 ## 插件启用
+*详细安装步骤在[这里](https://github.com/DK09/blhx-wiki)
 
 - [安装Mirai Console](https://github.com/mamoe/mirai/blob/dev/docs/UserManual.md)
 
 - 下载本项目最新的[jar包](https://github.com/DK09/blhx-wiki-mirai-plugin/releases)，放入Mirai-Console根目录下的plugin文件夹中
 
-- 下载[数据文件](https://gitee.com/arisaka-iris/blhx-wiki)放入Mirai-Console根目录下的data文件夹中
+- 下载[数据文件](https://github.com/DK09/blhx-wiki)放入Mirai-Console根目录下的data文件夹中
 
   ![](doc/data_path.png)
   
