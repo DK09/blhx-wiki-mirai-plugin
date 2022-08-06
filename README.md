@@ -177,7 +177,7 @@ $\color{red}{在修改配置文件时应确保机器人（插件）不在运行�
   
   ~~目前还没加入概率校验，等之后在摸吧~~
 
-- 戳一戳事件自定义
+- **戳一戳事件自定义**
 
   `/config/org.iris.blhx-wiki/CommandConfig.yml`中，修改`touch_first_param`和`touch_second_param`设置对应戳一戳相应事件（语音指令可以通过`wiki 小加加 语音`查看）
   ```
