@@ -34,6 +34,9 @@
 - ~~萌新的第一个kotlin、mirai项目，代码写的挺屎的~~
 
 ## 插件启用
+
+不会部署可以拉作者的机器人3052613643(萝卜子3号)，不过服务器可能不稳，每天不定时同意，拉了不要举报
+
 *详细安装步骤在[这里](https://github.com/DK09/blhx-wiki)
 
 - [安装Mirai Console](https://github.com/mamoe/mirai/blob/dev/docs/UserManual.md)
@@ -179,7 +182,7 @@ $\color{red}{在修改配置文件时应确保机器人（插件）不在运行�
 
 - **戳一戳事件自定义**
 
-  `/config/org.iris.blhx-wiki/CommandConfig.yml`中，修改`touch_first_param`和`touch_second_param`设置对应戳一戳相应事件（语音指令可以通过`wiki 小加加 语音`查看）
+  `/config/org.iris.wiki/CommandConfig.yml`中，修改`touch_first_param`和`touch_second_param`设置对应戳一戳相应事件（语音指令可以通过`wiki 小加加 语音`查看）
   ```
   # 戳一戳事件对应舰娘(wiki __1__ __2__ 指令中的__1__), 为 '无' 时不对戳一戳事件反应
   touch_first_param: 小加加
