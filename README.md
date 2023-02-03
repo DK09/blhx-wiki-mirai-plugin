@@ -129,11 +129,11 @@ $\color{red}{在修改配置文件时应确保机器人（插件）不在运行�
 
 - **指令设置**
 
-    位于`config/blhx-wiki/CommandConfig.yml`,对应Bot指令中的各指令名，可自行修改
+    位于`config/org.iris.wiki/CommandConfig.yml`,对应Bot指令中的各指令名，可自行修改
 
 - **别名设置**
 
-    位于`config/blhx-wiki/CommandConfig.yml`，为方便更新， **用户仅能在ALIAS_USER_MAP下添加别名，其他词条下修改插件不会记录** ，格式如下，“别名：正式名”
+    位于`config/org.iris.wiki/AliasConfig.yml`，为方便更新， **用户仅能在ALIAS_USER_MAP下添加别名，其他词条下修改插件不会记录** ，格式如下，“别名：正式名”
   ```yaml
   ALIAS_USER_MAP: 
     36d: 萨拉托加
@@ -146,7 +146,7 @@ $\color{red}{在修改配置文件时应确保机器人（插件）不在运行�
 
 - **活动卡池设置**
 
-  位于`data/blhx-wiki/config/active_pool.json`，格式如下
+  位于`data/org.iris.wiki/config/active_pool.json`，格式如下
   
   ```json
   {
@@ -195,7 +195,7 @@ $\color{red}{在修改配置文件时应确保机器人（插件）不在运行�
 
 - **大建列表乱码**
 
-  将`data/blhx-wiki/config/active_pool.json`文件改为GBK格式即可
+  将`data/org.iris.wiki/config/active_pool.json`文件改为GBK格式即可
 
 - **PC端语音不能播放**
 
